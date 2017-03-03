@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7DC9871E68B918004D4AC5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC9811E68B918004D4AC5 /* Country.swift */; };
+		3F7DC9881E68B918004D4AC5 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DC9821E68B918004D4AC5 /* CountryTableViewCell.xib */; };
+		3F7DC9891E68B918004D4AC5 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC9831E68B918004D4AC5 /* CountryTableViewCell.swift */; };
+		3F7DC98A1E68B918004D4AC5 /* BaseCountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC9841E68B918004D4AC5 /* BaseCountryTableViewController.swift */; };
+		3F7DC98B1E68B918004D4AC5 /* ResultsCountryTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC9851E68B918004D4AC5 /* ResultsCountryTableController.swift */; };
+		3F7DC98C1E68B918004D4AC5 /* MainCountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC9861E68B918004D4AC5 /* MainCountryTableViewController.swift */; };
+		3F7DC98E1E68D3F4004D4AC5 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC98D1E68D3F4004D4AC5 /* CurrentLocationViewController.swift */; };
 		5DFE06D21E662F1F001CB8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE06D11E662F1F001CB8ED /* AppDelegate.swift */; };
 		5DFE06D71E662F1F001CB8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE06D51E662F1F001CB8ED /* Main.storyboard */; };
 		5DFE06D91E662F1F001CB8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE06D81E662F1F001CB8ED /* Assets.xcassets */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F7DC9811E68B918004D4AC5 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3F7DC9821E68B918004D4AC5 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		3F7DC9831E68B918004D4AC5 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		3F7DC9841E68B918004D4AC5 /* BaseCountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCountryTableViewController.swift; sourceTree = "<group>"; };
+		3F7DC9851E68B918004D4AC5 /* ResultsCountryTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCountryTableController.swift; sourceTree = "<group>"; };
+		3F7DC9861E68B918004D4AC5 /* MainCountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCountryTableViewController.swift; sourceTree = "<group>"; };
+		3F7DC98D1E68D3F4004D4AC5 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		5DFE06CE1E662F1F001CB8ED /* CurrencySelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencySelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFE06D11E662F1F001CB8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DFE06D61E662F1F001CB8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +85,13 @@
 				5DFE06DD1E662F1F001CB8ED /* Info.plist */,
 				5DFE06E31E66345D001CB8ED /* MenuViewController.swift */,
 				5DFE06EA1E663780001CB8ED /* HomeViewController.swift */,
+				3F7DC9811E68B918004D4AC5 /* Country.swift */,
+				3F7DC9821E68B918004D4AC5 /* CountryTableViewCell.xib */,
+				3F7DC9831E68B918004D4AC5 /* CountryTableViewCell.swift */,
+				3F7DC9841E68B918004D4AC5 /* BaseCountryTableViewController.swift */,
+				3F7DC9851E68B918004D4AC5 /* ResultsCountryTableController.swift */,
+				3F7DC9861E68B918004D4AC5 /* MainCountryTableViewController.swift */,
+				3F7DC98D1E68D3F4004D4AC5 /* CurrentLocationViewController.swift */,
 			);
 			path = CurrencySelection;
 			sourceTree = "<group>";
@@ -153,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7DC9881E68B918004D4AC5 /* CountryTableViewCell.xib in Resources */,
 				5DFE06DC1E662F1F001CB8ED /* LaunchScreen.storyboard in Resources */,
 				5DFE06D91E662F1F001CB8ED /* Assets.xcassets in Resources */,
 				5DFE06D71E662F1F001CB8ED /* Main.storyboard in Resources */,
@@ -167,9 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFE06E41E66345D001CB8ED /* MenuViewController.swift in Sources */,
+				3F7DC98C1E68B918004D4AC5 /* MainCountryTableViewController.swift in Sources */,
 				5DFE06EE1E663AF2001CB8ED /* CustomExtentions.swift in Sources */,
+				3F7DC98E1E68D3F4004D4AC5 /* CurrentLocationViewController.swift in Sources */,
 				5DFE06D21E662F1F001CB8ED /* AppDelegate.swift in Sources */,
 				5DFE06E91E66348A001CB8ED /* SWRevealViewController.m in Sources */,
+				3F7DC98B1E68B918004D4AC5 /* ResultsCountryTableController.swift in Sources */,
+				3F7DC9871E68B918004D4AC5 /* Country.swift in Sources */,
+				3F7DC98A1E68B918004D4AC5 /* BaseCountryTableViewController.swift in Sources */,
+				3F7DC9891E68B918004D4AC5 /* CountryTableViewCell.swift in Sources */,
 				5DFE06EB1E663780001CB8ED /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +365,7 @@
 				5DFE06E21E662F1F001CB8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

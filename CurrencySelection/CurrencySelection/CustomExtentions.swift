@@ -87,5 +87,18 @@ extension UIView {
 }
 
 extension Notification.Name {
-    static let updateLanguage = NSNotification.Name("updateLanguage")
+    static let updateCurrency = NSNotification.Name("updateCurrency")
+}
+
+extension String {
+    
+    func flag() -> String {
+        let base : UInt32 = 127397
+        var s = ""
+        for v in self.unicodeScalars {
+            s.unicodeScalars.append(UnicodeScalar(base + v.value)!)
+        }
+        return String(s)
+    }
+    
 }

@@ -422,13 +422,26 @@
                                     <action selector="githubButtonPressed:" destination="2Rf-N6-qRs" eventType="touchUpInside" id="eCU-jy-BzG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ply-16-5LT">
+                                <rect key="frame" x="88" y="605" width="129" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="G8h-nw-6Tg"/>
+                                    <constraint firstAttribute="width" constant="129" id="imm-Xs-gGS"/>
+                                </constraints>
+                                <state key="normal" image="img_romerock_logo"/>
+                                <connections>
+                                    <action selector="romerockButtonPressed:" destination="2Rf-N6-qRs" eventType="touchUpInside" id="b5s-qJ-dVM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1647058824" green="0.18823529410000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="yv7-bd-c94" firstAttribute="leading" secondItem="N5v-BO-Fe6" secondAttribute="trailing" constant="30" id="1yB-9x-b7U"/>
                             <constraint firstItem="yv7-bd-c94" firstAttribute="centerY" secondItem="N5v-BO-Fe6" secondAttribute="centerY" id="8T2-L1-aTR"/>
+                            <constraint firstItem="tKg-M4-BmJ" firstAttribute="top" secondItem="ply-16-5LT" secondAttribute="bottom" constant="42" id="98Y-Hm-oWe"/>
                             <constraint firstItem="zc6-0Z-aBq" firstAttribute="leading" secondItem="DIr-P5-FdO" secondAttribute="leading" constant="19" id="Bmj-5N-xMx"/>
                             <constraint firstItem="2zP-MX-9xH" firstAttribute="leading" secondItem="yv7-bd-c94" secondAttribute="trailing" constant="30" id="Fwu-Mz-BeR"/>
+                            <constraint firstItem="ply-16-5LT" firstAttribute="leading" secondItem="DIr-P5-FdO" secondAttribute="leading" constant="88" id="Jez-CZ-Dan"/>
                             <constraint firstItem="N5v-BO-Fe6" firstAttribute="leading" secondItem="DIr-P5-FdO" secondAttribute="leading" constant="32" id="LaM-1U-5hl"/>
                             <constraint firstItem="N5v-BO-Fe6" firstAttribute="top" secondItem="zc6-0Z-aBq" secondAttribute="bottom" constant="68" id="Ojo-gq-eGI"/>
                             <constraint firstItem="2zP-MX-9xH" firstAttribute="centerY" secondItem="yv7-bd-c94" secondAttribute="centerY" id="QMK-3j-175"/>
@@ -448,6 +461,7 @@
         <image name="ic_github" width="54" height="54"/>
         <image name="ic_menu" width="16" height="15"/>
         <image name="ic_twitter" width="54" height="54"/>
+        <image name="img_romerock_logo" width="130" height="20"/>
         <image name="img_romerock_logo_gray" width="99" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
